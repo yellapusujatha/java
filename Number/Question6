@@ -1,0 +1,64 @@
+nts "Fail". The program should accept an integer 'grade' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void checkGrade(int grade)
+
+{ // your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+}
+
+}
+
+Sample Input: 55
+
+Sample Output: Pass
+
+import java.util.Scanner;
+
+package com;
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Enter Grade");
+		Scanner scan=new Scanner(System.in);
+
+		int grade=scan.nextInt();
+
+		checkGrade(grade);
+
+		}
+
+		public static void checkGrade(int grade)
+
+		{
+
+		if(grade>50)
+
+		{
+
+		System.out.println("PASS");
+
+		}
+
+		else
+
+		{
+
+		System.out.println("FAIL");
+
+		}
+
+		}
+
+	}
